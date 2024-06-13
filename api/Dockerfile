@@ -1,5 +1,6 @@
 # base image
-FROM python:3.10-slim-bookworm AS base
+# FROM python:3.10-slim-bookworm AS base
+FROM anolis-registry.cn-zhangjiakou.cr.aliyuncs.com/openanolis/python:3.10.13-23-minimal AS base
 
 LABEL maintainer="takatost@gmail.com"
 
